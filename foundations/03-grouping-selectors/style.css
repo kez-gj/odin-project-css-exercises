@@ -7,3 +7,8 @@
     font: 'Helvetica', 'Times New Roman', 'sans-serif';
 }
 
+.btn1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
