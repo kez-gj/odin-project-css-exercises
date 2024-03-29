@@ -1,0 +1,9 @@
+/* * **The first element**: a black background, white text color, and a bold font weight
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback  */
+
+.btn1.btn2 {
+    font-size: 28px;
+    font: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
