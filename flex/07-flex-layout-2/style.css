@@ -6,34 +6,73 @@ body {
   flex-direction: column;
 }
 
-.body-container {
-  display: flex;
+body, html {
+  height: 100%;
 }
 
-.card-container {
+.body-container {
   display: flex;
+  flex: 1;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sidebar {
+.header, .footer {
+  padding: 8px 16px;
+}
+
+.sidebar-container {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+  flex-shrink: 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+  justify-content: space-evenly;
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 1px solid royalblue;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 320px;
+  padding: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
