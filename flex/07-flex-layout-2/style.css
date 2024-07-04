@@ -58,7 +58,7 @@ body, html {
   border: 1px solid royalblue;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 320px;
+  max-width: 300px;
   padding: 32px;
 }
 
